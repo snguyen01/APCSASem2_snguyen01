@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=StudListRunner
+comment0.text=\r\n\ ArrayList\ Project\r\n\r\n\ @Steven\ Nguyen\r\n\ @version\ 1025\r\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=
+comment2.target=double\ inputStudentGPA()
+comment3.params=
+comment3.target=int\ inputStudentNum()
+comment4.params=nameOrLastName
+comment4.target=int\ inputNumOrString(java.lang.String)
+numComments=5
