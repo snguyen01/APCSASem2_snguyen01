@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CanvasComponent
+comment0.text=\r\n\ Project\ 1\ -\ MySwingApplication\r\n\r\n\ @\ Steven\ Nguyen\r\n\ @\ 2/4/19\r\n
+comment1.params=width\ height
+comment1.target=CanvasComponent(int,\ int)
+comment2.params=xPos\ yPos\ width\ height
+comment2.target=void\ paintComponent(int,\ int,\ int,\ int)
+numComments=3
