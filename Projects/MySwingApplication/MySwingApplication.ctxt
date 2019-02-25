@@ -2,6 +2,6 @@
 comment0.target=MySwingApplication
 comment1.params=
 comment1.target=void\ run()
-comment2.params=args
-comment2.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ main()
 numComments=3
