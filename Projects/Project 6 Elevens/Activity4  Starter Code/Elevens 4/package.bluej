@@ -1,9 +1,9 @@
 #BlueJ package file
-dependency1.from=DeckTester
-dependency1.to=Deck
+dependency1.from=Deck
+dependency1.to=Card
 dependency1.type=UsesDependency
-dependency2.from=Deck
-dependency2.to=Card
+dependency2.from=DeckTester
+dependency2.to=Deck
 dependency2.type=UsesDependency
 editor.fx.0.height=0
 editor.fx.0.width=0
@@ -15,8 +15,8 @@ package.divider.horizontal=0.6
 package.divider.vertical=0.6766467065868264
 package.editor.height=332
 package.editor.width=670
-package.editor.x=662
-package.editor.y=371
+package.editor.x=299
+package.editor.y=133
 package.frame.height=600
 package.frame.width=800
 package.numDependencies=2
