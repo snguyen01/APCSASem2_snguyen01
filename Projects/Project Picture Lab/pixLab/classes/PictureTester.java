@@ -53,10 +53,14 @@ public class PictureTester
   /** Method to test mirrorVertical */
   public static void testMirrorVertical()
   {
-    Picture caterpillar = new Picture("caterpillar.jpg");
-    caterpillar.explore();
-    caterpillar.mirrorVertical();
-    caterpillar.explore();
+    //Picture caterpillar = new Picture("caterpillar.jpg");
+    //caterpillar.explore();
+    //caterpillar.mirrorVertical();
+    //caterpillar.explore();
+    Picture bluemark = new Picture("blue-mark.jpg");
+    bluemark.explore();
+    bluemark.mirrorVertical();
+    bluemark.explore();
   }
   
   public static void testMirrorVerticalRightToLeft()
@@ -69,10 +73,10 @@ public class PictureTester
   
   public static void testMirrorHorizontal()
   {
-    Picture caterpillar = new Picture("caterpillar.jpg");
-    caterpillar.explore();
-    caterpillar.mirrorHorizontal();
-    caterpillar.explore();
+    Picture bluemark = new Picture("blue-mark.jpg");
+    bluemark.explore();
+    bluemark.mirrorHorizontal();
+    bluemark.explore();
   }
   
   public static void testMirrorHorizontalBottomToTop()
@@ -124,9 +128,12 @@ public class PictureTester
     canvas.explore();
   }
   
-  public static void testmyCollage()
+  public static void testKeepOnlyGreen()
   {
-    
+    Picture temple = new Picture("temple.jpg");
+    temple.explore();
+    temple.keepOnlyGreen();
+    temple.explore();
   }
   
   public static void testCopy()
@@ -167,16 +174,16 @@ public class PictureTester
     //testNegate();
     //testGrayscale();
     //testFixUnderwater();
-    //testMirrorVertical();
+    testMirrorVertical();
     //testMirrorVerticalRightToLeft();
-    // testMirrorHorizontal();
+    testMirrorHorizontal();
     // testMirrorHorizontalBottomToTop();
     //testMirrorDiagonal();
     //testMirrorTemple();
     //testMirrorArms();
     //testMirrorGull();
     //testMirrorDiagonal();
-    testCollage();
+    //testCollage();
     //testCopy();
     //testmyCollage();
     //testEdgeDetection();
