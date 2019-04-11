@@ -7,12 +7,12 @@
  */
 public class addClimb
 {
-    public void addClimb(String peakName, int climbTime)
+    a. public void addClimb(String peakName, int climbTime)
     {
         climbList.add(new ClimbInfo(peakName, climbTime));
     }
 
-    public void addClimb(String peakName, int climbTime)
+    b. public void addClimb(String peakName, int climbTime)
     {
         int i = 0;
 
@@ -23,4 +23,6 @@ public class addClimb
             climbList.add(i, new ClimbInfo(peakName, climbTime));
         }
     }
+    
+    c. Yes,No
 }
