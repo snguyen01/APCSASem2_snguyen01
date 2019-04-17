@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=someClass
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ someClass\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=someClass()
+comment1.text=\r\n\ initializing\ names\r\n
+comment2.params=names
+comment2.target=void\ sortStrings(java.util.ArrayList)
+comment3.params=names
+comment3.target=void\ shuffleStrings(java.util.ArrayList)
+comment4.params=word
+comment4.target=void\ insertString(java.lang.String)
+numComments=5
